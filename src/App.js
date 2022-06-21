@@ -1,21 +1,21 @@
 import "./App.css";
-import NavBar from "./navbar/NavBar";
-import TextForm from "./navbar/TextForm";
-import About from "./navbar/About";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-
+import About from "./components/About";
+import Navbar from "./components/Navbar";
+import TextForm from "./components/TextForm";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function App() {
   return (
+    // This is a fragment
     <>
       <Router>
-        <NavBar title="Text Utilities" />
+        <Navbar title="Text Utilities" aboutNav="About Us" />
         <div className="container my-3">
           <Switch>
-            <Route exact path="/about">
+            <Route path="/about">
               <About />
             </Route>
-            <Route exact path="/">
+            <Route path="/">
               <TextForm title="Enter Your Text Here" />
             </Route>
           </Switch>
