@@ -31,6 +31,9 @@ This is a web app for performing basic text operations.
 <!-- SCREENSHOTS -->
 
 ## <img src="https://cdn-icons-png.flaticon.com/512/6823/6823853.png" width="32" height="32">  Screenshots
+![image](https://user-images.githubusercontent.com/73957024/174876641-735214ea-6d8e-4350-9bcf-ab6280f5d9af.png)
+![image](https://user-images.githubusercontent.com/73957024/174876684-75739467-b609-4aa1-9157-557022319b84.png)
+![image](https://user-images.githubusercontent.com/73957024/174876707-4fede82f-eef8-4044-94bd-b4ee2ff0a407.png)
 
 
 <!-- GETTING STARTED -->
